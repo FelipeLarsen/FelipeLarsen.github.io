@@ -22,10 +22,11 @@
     text-decoration: none;
     color: #131313;
     display: block;
+    border-bottom: 3px solid #ffffff;
 }
 
 .header-menu a:hover {
-    border-bottom: 3px solid #b6f829;
+    border-bottom-color: #b6f829;
 }
 
 @media (max-width: 800px) {

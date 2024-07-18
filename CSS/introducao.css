@@ -2,14 +2,12 @@
     max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
     gap: 100px;
     align-items: center;
 }
 
 .introducao h1 {
-    font-size: 4.5rem;
+    font-size: 6.725rem;
     line-height: 1.125;
     margin-bottom: 30px;
     position: relative;
