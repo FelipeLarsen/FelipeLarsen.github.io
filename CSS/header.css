@@ -15,6 +15,10 @@
     justify-content: center;
 }
 
+.header h1 {
+    color: #131313;
+}
+
 .header-menu a {
     font-size: 1.125rem;
     line-height: 1.3;
