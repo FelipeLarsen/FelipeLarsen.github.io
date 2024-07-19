@@ -139,7 +139,7 @@
             const namespace = 'felipelarsen_github_io';
             const key = 'visits';
 
-            fetch(`https://api.countapi.xyz/hit/${felipelarsen_github_io}/${visits}`)
+            fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
                 .then(response => response.json())
                 .then(data => {
                     console.log(`Você é o visitante número: ${data.value}`);
