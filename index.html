@@ -134,7 +134,19 @@
         </div>
     </footer>
 
-    <script src="counter.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const namespace = 'felipelarsen.github.io'; // Nome único para o seu site
+            const key = 'visits';
+        
+            fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`Você é o visitante número: ${data.value}`);
+                })
+                .catch(error => console.error('Erro:', error));
+        });
+    </script>
 </body>
 
 </html>
